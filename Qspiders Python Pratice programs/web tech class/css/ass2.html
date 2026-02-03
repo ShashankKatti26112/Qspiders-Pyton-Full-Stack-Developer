@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      #container {
+        margin: 10px;
+        display: flex;
+        font-size: 30px;
+      }
+      .letter {
+        padding: 10px 15px;
+        margin-right: 5px;
+        font-family: Arial, sans-serif;
+      }
+
+      #container .letter:nth-child(1) {
+        border: 3px solid #1e90ff;
+      }
+      #container .letter:nth-child(2) {
+        border: 3px dashed #ff4500;
+      }
+      #container .letter:nth-child(3) {
+        border: 3px dotted #32cd32;
+      }
+      #container .letter:nth-child(4) {
+        border: 4px double #8a2be2;
+      }
+      #container .letter:nth-child(5) {
+        border: 4px groove #ff1493;
+      }
+      #container .letter:nth-child(6) {
+        border: 4px ridge #ffa500;
+      }
+      #container .letter:nth-child(7) {
+        border: 4px inset #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <span class="letter">J</span><span class="letter">S</span
+      ><span class="letter">P</span><span class="letter">I</span
+      ><span class="letter">D</span><span class="letter">E</span
+      ><span class="letter">R</span>
+    </div>
+  </body>
+</html>

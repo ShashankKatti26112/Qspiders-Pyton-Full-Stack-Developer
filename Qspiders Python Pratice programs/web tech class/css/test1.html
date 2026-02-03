@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS: Inline, Internal, External</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .box {
+        padding: 16px;
+        margin: 12px 0;
+        font-family: Arial, sans-serif;
+        color: #222;
+      }
+      #internal {
+        background: #e6ffe6;
+        border: 2px dashed #2e8b57;
+      }
+      * {
+        border: 2px solid #2e8b57;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box external">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam officia
+      aperiam sequi quaerat, molestias similique ratione, accusantium incidunt
+      minus iusto non eius inventore ipsam aliquam asperiores quae ad magnam
+      laudantium?
+    </div>
+
+    <div class="box" id="internal">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aut
+      obcaecati hic sapiente eum et totam rerum adipisci dolore necessitatibus
+      ratione modi illum amet presenting exercitationem iusto a, omnis
+      voluptas!
+    </div>
+
+    <div class="box" style="background: #ffd6d6; border: 2px solid #b22222">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil amet cum
+      assumenda rem. Asperiores, consequuntur itaque in nesciunt adipisci,
+      aliquid eum ipsum nam voluptate, quos consequatur? Consequuntur totam
+      nulla minus?
+    </div>
+  </body>
+</html>
